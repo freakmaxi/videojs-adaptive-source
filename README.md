@@ -82,7 +82,7 @@ To able to have the properly working adaptive source plugin, the followings are
 
 - When you are setting up video source, NEVER EVER skip to set the correct `bitrate` value
 for your video. the WHOLE CALCULATION depends on that value. 
-- If your provide an image suitable to your max bitrate source, the speed test can be done
+- If you provide an image suitable to your max bitrate source, the speed test can be done
 efficiently.
 
 #### How should be suitable image?
