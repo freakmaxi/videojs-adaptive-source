@@ -92,7 +92,7 @@ efficiently.
 Let's jump in to some theoretical knowledge. `bitrate` is the number of bits that are conveyed
 or processed per unit of time. It means that, your video provide sequence of images in bitrate
 size. So `1000k` bitrate video provides `1000kbit / 8 = 125kb` data in a second. The size of the 
-video is not important. You can create a video with 5000kbit on 640x360 but also 1920x1080. So
+video is not important. You can create a video with 5000kbit on 640x360 as well as 1920x1080. So
 what you should pay attention is the bitrate.
 
 According to this calculation, when you are choosing the **test image** you should take the reference
