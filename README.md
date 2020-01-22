@@ -100,7 +100,7 @@ of the highest bitrate video. Let's get my sources as example. The highest bitra
 `sample_1920x1080_5000k.mp4`. The bitrate of the video is `5000k`. It means that `5000kbit / 8 = 625 kb`
 data in a second will be downloaded for the smooth video play.
 
-So your test image should be this size to able to calculate the internet speed. If test image can be
+So your test image should be this size (5%~625kb) to able to calculate the internet speed. If test image can be
 downloaded in a second, so viewer can play the sample 1080p video without any problem.
 
 According to this, you HAVE TO calculate the proper image size for your source. 
