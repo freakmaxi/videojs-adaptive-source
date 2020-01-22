@@ -1,0 +1,30 @@
+{
+  "name": "videojs-adaptive-source",
+  "version": "0.1.0",
+  "main": "./lib/videojs-adaptive-source.js",
+  "author": {
+    "name": "Tuna Celik",
+    "email": "tuna.celik@mesajkutum.com"
+  },
+  "description": "Adaptive source for video.js 7",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:freakmaxi/videojs-adaptive-source.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freakmaxi/videojs-adaptive-source/issues"
+  },
+  "license": "GNUv3",
+  "keywords": [
+    "videojs",
+    "html5",
+    "video",
+    "player",
+    "adaptive",
+    "source",
+    "videojs-plugin"
+  ],
+  "devDependencies": {
+    "video.js": "^7.7.4"
+  }
+}

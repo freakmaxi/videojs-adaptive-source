@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Video.js Adaptive Source</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="node_modules/video.js/dist/video-js.css" rel="stylesheet">
+    <link href="lib/videojs-adaptive-source.css" rel="stylesheet">
+    <script src="node_modules/video.js/dist/video.js"></script>
+    <script src="lib/videojs-adaptive-source.js"></script>
+  </head>
+  <body>
+    <div style="width: 49%; display: inline-block">
+      <pre>
+        videojs(
+          'video',
+          {
+            controls: true,
+            plugins: {
+              videoJsAdaptiveSource: {
+                useIconButton: false,
+                disableAdaptive: false,
+                threshold: 4
+              }
+            }
+          },
+          function()
+          {
+            this.setSources([
+              {
+                src: 'sample_426x240_1000k.mp4',
+                type: 'video/mp4',
+                label: '240p',
+                bitrate: 1000
+              },
+              {
+                src: 'sample_640x360_1500k.mp4',
+                type: 'video/mp4',
+                label: '360p',
+                bitrate: 1500
+              },
+              {
+                src: 'sample_854x480_2000k.mp4',
+                type: 'video/mp4',
+                label: '480p',
+                bitrate: 2000
+              },
+              {
+                src: 'sample_1280x720_3000k.mp4',
+                type: 'video/mp4',
+                label: '720p',
+                bitrate: 3000
+              },
+              {
+                src: 'sample_1920x1080_5000k.mp4',
+                type: 'video/mp4',
+                label: '1080p',
+                bitrate: 5000
+              }
+            ], "test.jpg");
+          });
+      </pre>
+    </div>
+    <div style="width: 49%; display: inline-block; vertical-align: top">
+      <video id='video' class="video-js vjs-default-skin" width="640px"></video>
+    </div>
+    <script tyle="text/javascript">
+      videojs(
+        'video',
+        {
+          controls: true,
+          plugins: {
+            videoJsAdaptiveSource: {
+              useIconButton: false,
+              disableAdaptive: false,
+              threshold: 4
+            }
+          }
+        },
+        function()
+        {
+          this.setSources([
+            {
+              src: 'sample_426x240_1000k.mp4',
+              type: 'video/mp4',
+              label: '240p',
+              bitrate: 1000
+            },
+            {
+              src: 'sample_640x360_1500k.mp4',
+              type: 'video/mp4',
+              label: '360p',
+              bitrate: 1500
+            },
+            {
+              src: 'sample_854x480_2000k.mp4',
+              type: 'video/mp4',
+              label: '480p',
+              bitrate: 2000
+            },
+            {
+              src: 'sample_1280x720_3000k.mp4',
+              type: 'video/mp4',
+              label: '720p',
+              bitrate: 3000
+            },
+            {
+              src: 'sample_1920x1080_5000k.mp4',
+              type: 'video/mp4',
+              label: '1080p',
+              bitrate: 5000
+            }
+          ], "test.jpg");
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.vjs-adaptive-source-button .vjs-menu-icon {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.vjs-adaptive-source-button .vjs-menu-icon:before {
+  content: '\f110';
+}
+
+.vjs-adaptive-source-button .vjs-adaptive-source-button-label {
+  height: 100%;
+  text-align: center;
+  box-sizing: inherit;
+}
+
+.vjs-adaptive-source-button + .vjs-menu .vjs-menu-content {
+   width: 6em;
+   left: 50%;
+   margin-left: -2em;
+}
+
+.vjs-adaptive-source-button + .vjs-menu li {
+  text-transform: none;
+	font-size: 1em;
+}
+
+.vjs-adaptive-source-button + .vjs-menu .vjs-menu-item-text {
+  margin-right: 1em;
+}
+
+.vjs-adaptive-source-button + .vjs-menu .vjs-menu-item .vjs-menu-item-text:before {
+  content: ' ';
+  margin-right: 1.2em;
+}
+
+.vjs-adaptive-source-button + .vjs-menu .vjs-menu-item.selected .vjs-menu-item-text:before {
+  content: '\2713';
+  margin-right: 0.5em;
+}
